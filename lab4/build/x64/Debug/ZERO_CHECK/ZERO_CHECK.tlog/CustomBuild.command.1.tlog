@@ -1,0 +1,10 @@
+^D:\BSU\OS\LAB4\BUILD\CMAKEFILES\2BC1AFD1B7E3FCC8C6AA5DBC6F32A132\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BSU/OS/lab4 -BD:/BSU/OS/lab4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/BSU/OS/lab4/build/MessageQueue.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,49 @@
+Start testing: Jun 03 06:51 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/1 Testing: unit_tests
+1/1 Test: unit_tests
+Command: "D:/BSU/OS/lab4/build/Debug/tests.exe"
+Directory: D:/BSU/OS/lab4/build
+"unit_tests" start time: Jun 03 06:51 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from CreateQueueFile
+[ RUN      ] CreateQueueFile.ReturnsTrue
+[       OK ] CreateQueueFile.ReturnsTrue (0 ms)
+[ RUN      ] CreateQueueFile.FileExists
+[       OK ] CreateQueueFile.FileExists (2 ms)
+[ RUN      ] CreateQueueFile.CorrectFileSize
+[       OK ] CreateQueueFile.CorrectFileSize (2 ms)
+[ RUN      ] CreateQueueFile.OverwritesExistingFile
+[       OK ] CreateQueueFile.OverwritesExistingFile (3 ms)
+[----------] 4 tests from CreateQueueFile (9 ms total)
+
+[----------] 6 tests from QueueOps
+[ RUN      ] QueueOps.EnqueueDequeueSingle
+[       OK ] QueueOps.EnqueueDequeueSingle (10 ms)
+[ RUN      ] QueueOps.FIFOOrder
+[       OK ] QueueOps.FIFOOrder (38 ms)
+[ RUN      ] QueueOps.WrapAround
+[       OK ] QueueOps.WrapAround (40 ms)
+[ RUN      ] QueueOps.MessageTruncation
+[       OK ] QueueOps.MessageTruncation (9 ms)
+[ RUN      ] QueueOps.FillAndDrain
+[       OK ] QueueOps.FillAndDrain (56 ms)
+[ RUN      ] QueueOps.InterleaveEnqueueDequeue
+[       OK ] QueueOps.InterleaveEnqueueDequeue (61 ms)
+[----------] 6 tests from QueueOps (217 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 2 test suites ran. (227 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Jun 03 06:51 RTZ 2 (çèìà)
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 03 06:51 RTZ 2 (çèìà)
